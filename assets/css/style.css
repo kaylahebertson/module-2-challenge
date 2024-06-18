@@ -9,7 +9,7 @@ body {
 }
 
 header {
-   background-color: plum;
+   background-color: rgb(50, 0, 50);
    color: #ffffff;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    padding: 20px;
@@ -39,30 +39,130 @@ nav ul li {
    display: inline-block;
 }
 
+header a:link {
+   color: #ffffff;
+}
+
+header a:visited {
+   color: #ffffff;
+}
+
+header a:hover {
+   color: lightslategray;
+}
+
+header a:link, a:visited {
+   text-decoration: none;
+}
+
 main {
    display: flex;
    flex-direction: column;
 }
 
-section {
-
+.about-me {
+   background-color: plum;
+   margin: 20px;
+   border: 2px solid black; 
 }
 
-img {
+.about-me h2 {
+   padding: 10px;
+   font-size: 36px;
+}
+
+.about-me p {
+   padding: 20px;
+   font-size: 20px;
+}
+
+.about-me img {
+   float: right;
+   display: block;
+   margin: 20px;
+   width: 200px;
+   height: 200px
+}
+
+.work {
+   background-color: rgb(221, 187, 221);
+   margin: 20px;
+   border: 2px solid black;
+}
+
+.work h2 {
+   padding: 10px;
+   font-size: 36px;
+}
+
+.work p {
+   padding: 20px;
+}
+
+.row img {
    width: 250px;
    height: 250px;
-   display: block;
+   display: flex;
+   flex-wrap: wrap;
    padding: 20px;
    background-color: #990;
    border: 10px solid darkblue;
    margin: 20px;
 }
 
-footer {
+.contact-me {
+   background-color: plum;
+   margin: 20px;
+   border: 2px solid black;
+}
 
+.contact-me h2 {
+   padding: 10px;
+   font-size: 36px;
+}
+
+.contact-me ul {
+   padding: 30px;
+}
+
+.contact-me ul li {
+   font-size: 20px;
+}
+
+footer {
+   background-color: rgb(50, 0, 50);
+   color: #ffffff;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 20px;
+}
+
+footer h3 {
+   text-align: center;
+}
+
+.row {
+   display: flex;
+   flex-direction: wrap;
+   padding: 0 4px;
+}
+
+.column {
+   flex: 50%;
+   max-width: 50%;
+   padding: 0 4px;
+}
+
+.column img {
+   margin-top: 8px;
+   vertical-align: middle;
+   width: 100%;
 }
 
 @media screen and (max-width: 768px) {
+   .column {
+      flex: 100%;
+      max-width: 100%;
+   }
    /* You'll need to update the CSS so that it contains media queries to make the page responsive. 
    When the page width is less than 768px, the portfolio columns should stack and be the same height.*/     
 }
