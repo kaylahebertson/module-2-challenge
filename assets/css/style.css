@@ -1,0 +1,68 @@
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background-color: lavender;
+}
+
+header {
+   background-color: plum;
+   color: #ffffff;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding: 20px;
+}
+
+header h1 {
+   display: inline-block;
+   font-size: 48px;
+}
+
+nav 
+{
+   padding-top: 15px;
+   margin-right: 20px;
+   float: right;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 20px;
+   color: #ffffff;
+}
+
+nav ul {
+   list-style-type: none;
+}
+
+nav ul li {
+   margin-left: 25px;
+   display: inline-block;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+}
+
+section {
+
+}
+
+img {
+   width: 250px;
+   height: 250px;
+   display: block;
+   padding: 20px;
+   background-color: #990;
+   border: 10px solid darkblue;
+   margin: 20px;
+}
+
+footer {
+
+}
+
+@media screen and (max-width: 768px) {
+   /* You'll need to update the CSS so that it contains media queries to make the page responsive. 
+   When the page width is less than 768px, the portfolio columns should stack and be the same height.*/     
+}
