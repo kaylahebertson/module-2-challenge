@@ -77,37 +77,39 @@ main {
 }
 
 .about-me img {
-   float: right;
-   display: block;
    margin: 20px;
-   width: 200px;
-   height: 200px
+   height: 10%;
+   width: 10%;
 }
 
-.work {
-   background-color: rgb(221, 187, 221);
+.gallery {
+   background-color: rgb(218, 195, 218);
    margin: 20px;
    border: 2px solid black;
 }
 
-.work h2 {
+.gallery h2 {
    padding: 10px;
    font-size: 36px;
 }
 
-.work p {
+.gallery p {
    padding: 20px;
+   font-weight: bold;
 }
 
-.row img {
-   width: 250px;
-   height: 250px;
+.gallery img {
+   width: 50%;
+   height: 50%;
    display: flex;
    flex-wrap: wrap;
    padding: 20px;
-   background-color: #990;
-   border: 10px solid darkblue;
+   border: 10px solid lightslategray;
    margin: 20px;
+}
+
+.projectone:hover {
+   box-shadow: inset 0px 0px 8px rgba(232, 102,236,1), 0 0 15px rgba(232,102,236,1);
 }
 
 .contact-me {
@@ -127,6 +129,23 @@ main {
 
 .contact-me ul li {
    font-size: 20px;
+   text-decoration: underline;
+}
+
+.contact-me a:link {
+   color: black;
+}
+
+.contact-me a:visited {
+   color: black;
+}
+
+.contact-me a:hover {
+   font-weight: bold;
+}
+
+.contact-me a:link, a:visited {
+   text-decoration: none;
 }
 
 footer {
