@@ -159,28 +159,23 @@ footer h3 {
    text-align: center;
 }
 
-.row {
-   display: flex;
-   flex-direction: wrap;
-   padding: 0 4px;
-}
-
 .column {
-   flex: 50%;
-   max-width: 50%;
+   flex: 100%;
    padding: 0 4px;
 }
 
 .column img {
    margin-top: 8px;
    vertical-align: middle;
-   width: 100%;
+   max-width: 50%;
+   flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {
-   .column {
+   .column img {
       flex: 100%;
       max-width: 100%;
+      max-height: 100%;
    }
    /* You'll need to update the CSS so that it contains media queries to make the page responsive. 
    When the page width is less than 768px, the portfolio columns should stack and be the same height.*/     
