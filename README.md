@@ -10,21 +10,23 @@
 
 ## Description
 
-[Visit the Deployed Site]()
+[Visit the Deployed Site](https://kaylahebertson.github.io/module-2-challenge/)
 
-This project was the first step in creating a portfolio where I will be able to showcase all future work and projects I make throughout coding bootcamp and my future jobs. I wrote code for an HTML and CSS to create a place where I can show off what I learn. 
+This project was the first step in creating a portfolio where I will be able to showcase all future work and projects I make throughout coding bootcamp and my future jobs. 
 
 Here is a screenshot of what my portfolio looks like now:
 
-[alt text](assets/images/readme-screenshot.jpg)
+```md
+![screenshot](assets/images/readme-screenshot.jpg)
+```
 
 ## Usage
 
-
+This project is meant to be a foundation for my future portfolio and a way to reflect on how I have grown throughout coding bootcamp.
 
 ## Learning Points
 
-
+I wrote code for an HTML and CSS to create a place where I can show off what I learn. I learned how to create my own portfolio from scratch. I found media queries to be a challenge for me. I am still learning how to use flexbox to my advantage. 
 
 ## Author Info
 
@@ -33,7 +35,7 @@ Kayla Hebertson
 
 * [Github](https://github.com/kaylahebertson)
 * [LinkedIn](www.linkedin.com/in/kayla-hebertson)
-* [Portfolio]()
+* [Portfolio](https://kaylahebertson.github.io/module-2-challenge/)
 
 ```
 
